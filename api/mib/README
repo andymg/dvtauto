@@ -1,0 +1,6 @@
+This is a guide for tester to config config.cfg or topo.cfg
+
+config.cfg.example and topo.cfg.example are two example file
+
+For your first time to use the Auto test,
+Please rename config.cfg.example to config.cfg and rename topo.cfg.example to topo.cfg according to your DUT real IP.

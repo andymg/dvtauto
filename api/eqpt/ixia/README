@@ -1,0 +1,19 @@
+This is a introduction file for ixia.tcl
+To show test creater how to use the APIs to control IXIA
+
+1. What's this file is used for?
+   This file is a layer implemented with IXIA native API to provide useful APIs,
+   To make the user to use IXIA easily. 
+   Only few APIs can complete a function test with IXIA.
+
+2. Basic usage steps of these IXIA API
+    a. connect to IXIA ---->connect_ixia 
+    b. config port type,fiber or copper --->config_portprop
+    c. config frame on an IXIA port ---->config_frame
+    d. config stream on an IXIA port ---->config_stream
+    e. send traffic on an port       ---->send_traffic
+    f. capture packets      ------>start_capture
+    g. stop capturing on an port -->stop_capture
+    h. filter packets in captured ---->check_capture
+
+For more details please read the ixia.tcl or others test cases to learn how to use IXIA with these APIs.

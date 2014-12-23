@@ -1,0 +1,26 @@
+The parameter number you input is 4.
+The broswer type you input is firefox.
+The ip address you input is 192.168.3.59.
+
+=========parameters============================
+1.9.3.py
+          S3280
+                       firefox
+                                    192.168.3.59
+=========parameters============================
+
+=====startPerformMainPro====
+Initializing...
+Connection status 200.
+Connection successful!
+Starting firefox browser...
+=====startWebMonitorDMI=====
+http://admin:@192.168.3.59
+S3280
+start web successfully!
+=====engineWebMonitorDMI====
+========readMonitorDMI======
+Diagnostic Monitoring
+FAIL
+
+child process exited abnormally

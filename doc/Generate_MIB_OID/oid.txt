@@ -1,0 +1,75 @@
+set tnIfVLANTagMgmt2TxTagType(oid)1.3.6.1.4.1.868.2.5.4.1.4.3.1.2
+set tnIfVLANTagMgmt2TxTagType(type) INTEGER 
+set tnIfVLANTagMgmt2TxTagType(access) read-write
+set dot1qMaxVlanId(oid)1.3.6.1.2.1.17.7.1.1.2
+set dot1qMaxVlanId(type) VlanId 
+set dot1qMaxVlanId(access) read-only
+set dot1qMaxSupportedVlans(oid)1.3.6.1.2.1.17.7.1.1.3
+set dot1qMaxSupportedVlans(type) Unsigned32 
+set dot1qMaxSupportedVlans(access) read-only
+set dot1qNumVlans(oid)1.3.6.1.2.1.17.7.1.1.4
+set dot1qNumVlans(type) Unsigned32 
+set dot1qNumVlans(access) read-only
+set dot1qFdbDynamicCount(oid)1.3.6.1.2.1.17.7.1.2.1.1.2
+set dot1qFdbDynamicCount(type) Counter32 
+set dot1qFdbDynamicCount(access) read-only
+set dot1qTpFdbPort(oid)1.3.6.1.2.1.17.7.1.2.2.1.2
+set dot1qTpFdbPort(type) Integer32 
+set dot1qTpFdbPort(access) read-only
+set dot1qTpFdbStatus(oid)1.3.6.1.2.1.17.7.1.2.2.1.3
+set dot1qTpFdbStatus(type) INTEGER 
+set dot1qTpFdbStatus(access) read-only
+set dot1qTpGroupEgressPorts(oid)1.3.6.1.2.1.17.7.1.2.3.1.2
+set dot1qTpGroupEgressPorts(type) PortList 
+set dot1qTpGroupEgressPorts(access) read-only
+set dot1qTpGroupLearnt(oid)1.3.6.1.2.1.17.7.1.2.3.1.3
+set dot1qTpGroupLearnt(type) PortList 
+set dot1qTpGroupLearnt(access) read-only
+set dot1qStaticUnicastAllowedToGoTo(oid)1.3.6.1.2.1.17.7.1.3.1.1.3
+set dot1qStaticUnicastAllowedToGoTo(type) PortList 
+set dot1qStaticUnicastAllowedToGoTo(access) read-write
+set dot1qStaticUnicastStatus(oid)1.3.6.1.2.1.17.7.1.3.1.1.4
+set dot1qStaticUnicastStatus(type) INTEGER 
+set dot1qStaticUnicastStatus(access) read-write
+set dot1qStaticMulticastStaticEgressPorts(oid)1.3.6.1.2.1.17.7.1.3.2.1.3
+set dot1qStaticMulticastStaticEgressPorts(type) PortList 
+set dot1qStaticMulticastStaticEgressPorts(access) read-write
+set dot1qStaticMulticastStatus(oid)1.3.6.1.2.1.17.7.1.3.2.1.5
+set dot1qStaticMulticastStatus(type) INTEGER 
+set dot1qStaticMulticastStatus(access) read-write
+set dot1qVlanFdbId(oid)1.3.6.1.2.1.17.7.1.4.2.1.3
+set dot1qVlanFdbId(type) Unsigned32 
+set dot1qVlanFdbId(access) read-only
+set dot1qVlanCurrentEgressPorts(oid)1.3.6.1.2.1.17.7.1.4.2.1.4
+set dot1qVlanCurrentEgressPorts(type) PortList 
+set dot1qVlanCurrentEgressPorts(access) read-only
+set dot1qVlanCurrentUntaggedPorts(oid)1.3.6.1.2.1.17.7.1.4.2.1.5
+set dot1qVlanCurrentUntaggedPorts(type) PortList 
+set dot1qVlanCurrentUntaggedPorts(access) read-only
+set dot1qVlanStatus(oid)1.3.6.1.2.1.17.7.1.4.2.1.6
+set dot1qVlanStatus(type) INTEGER 
+set dot1qVlanStatus(access) read-only
+set dot1qVlanStaticName(oid)1.3.6.1.2.1.17.7.1.4.3.1.1
+set dot1qVlanStaticName(type) SnmpAdminString 
+set dot1qVlanStaticName(access) read-create
+set dot1qVlanStaticEgressPorts(oid)1.3.6.1.2.1.17.7.1.4.3.1.2
+set dot1qVlanStaticEgressPorts(type) PortList 
+set dot1qVlanStaticEgressPorts(access) read-create
+set dot1qVlanStaticUntaggedPorts(oid)1.3.6.1.2.1.17.7.1.4.3.1.4
+set dot1qVlanStaticUntaggedPorts(type) PortList 
+set dot1qVlanStaticUntaggedPorts(access) read-create
+set dot1qVlanStaticRowStatus(oid)1.3.6.1.2.1.17.7.1.4.3.1.5
+set dot1qVlanStaticRowStatus(type) RowStatus 
+set dot1qVlanStaticRowStatus(access) read-create
+set dot1qNextFreeLocalVlanIndex(oid)1.3.6.1.2.1.17.7.1.4.4
+set dot1qNextFreeLocalVlanIndex(type) Integer32 
+set dot1qNextFreeLocalVlanIndex(access) read-only
+set dot1qPvid(oid)1.3.6.1.2.1.17.7.1.4.5.1.1
+set dot1qPvid(type) VlanIndex 
+set dot1qPvid(access) read-write
+set dot1qPortAcceptableFrameTypes(oid)1.3.6.1.2.1.17.7.1.4.5.1.2
+set dot1qPortAcceptableFrameTypes(type) INTEGER 
+set dot1qPortAcceptableFrameTypes(access) read-write
+set dot1qPortIngressFiltering(oid)1.3.6.1.2.1.17.7.1.4.5.1.3
+set dot1qPortIngressFiltering(type) TruthValue 
+set dot1qPortIngressFiltering(access) read-write

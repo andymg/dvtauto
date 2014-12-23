@@ -1,0 +1,273 @@
+The parameter number you input is 4.
+The broswer type you input is firefox.
+The ip address you input is 192.168.3.55.
+
+=========parameters============================
+2.3.py
+          S3280
+                       firefox
+                                    192.168.3.55
+=========parameters============================
+
+=====startPerformMainPro====
+Initializing...
+Connection status 200.
+Connection successful!
+Starting firefox browser...
+========startWebPorts========
+http://admin:@192.168.3.55
+S3280
+start web successfully!
+=========enginePorts=========
+======setPortsParameters=====
+8DA
+========setSelectValue=======
+mgmtport
+The PortType random number is 2.
+S-port
+========setSelectValue=======
+__ctl__
+__ctl__1
+The PortType random number is 3.
+S-custom-port
+=======setCheckboxValue======
+__ctl__
+__ctl__3
+========setSelectValue=======
+__ctl__
+__ctl__4
+The Frame Type random number is 0.
+All
+========setSelectValue=======
+__ctl__
+__ctl__6
+The Mode random number is 0.
+Specific
+======setPortsInputValue=====
+__ctl__
+__ctl__7
+89
+========setSelectValue=======
+__ctl__
+__ctl__8
+The Tx Tag random number is 3.
+Untag_all
+========setSelectValue=======
+porttypev2_
+The PortType random number is 1.
+porttypev2_1
+C-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_1
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 2.
+frametypev2_1
+Untagged
+========setSelectValue=======
+selpvlan_
+The Mode random number is 1.
+selpvlan_1
+None
+======setPortsInputValue=====
+pvid_
+pvid_1
+654
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 1.
+tx_tag_1
+Untag_pvid
+========setSelectValue=======
+porttypev2_
+The PortType random number is 2.
+porttypev2_2
+S-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_2
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 2.
+frametypev2_2
+Untagged
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_2
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_2
+1409
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 0.
+tx_tag_2
+Untag_pvid
+========setSelectValue=======
+porttypev2_
+The PortType random number is 0.
+porttypev2_3
+Unaware
+=======setCheckboxValue======
+ingressflt_
+ingressflt_3
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 2.
+frametypev2_3
+Untagged
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_3
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_3
+1800
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 0.
+tx_tag_3
+Untag_pvid
+========setSelectValue=======
+porttypev2_
+The PortType random number is 2.
+porttypev2_4
+S-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_4
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 0.
+frametypev2_4
+All
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_4
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_4
+2031
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 2.
+tx_tag_4
+Tag_all
+========setSelectValue=======
+porttypev2_
+The PortType random number is 2.
+porttypev2_5
+S-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_5
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 2.
+frametypev2_5
+Untagged
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_5
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_5
+1018
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 0.
+tx_tag_5
+Untag_pvid
+========setSelectValue=======
+porttypev2_
+The PortType random number is 3.
+porttypev2_6
+S-custom-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_6
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 0.
+frametypev2_6
+All
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_6
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_6
+1978
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 3.
+tx_tag_6
+Untag_all
+========setSelectValue=======
+porttypev2_
+The PortType random number is 1.
+porttypev2_7
+C-port
+=======setCheckboxValue======
+ingressflt_
+ingressflt_7
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 2.
+frametypev2_7
+Untagged
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_7
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_7
+3705
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 2.
+tx_tag_7
+Tag_all
+========setSelectValue=======
+porttypev2_
+The PortType random number is 0.
+porttypev2_8
+Unaware
+=======setCheckboxValue======
+ingressflt_
+ingressflt_8
+========setSelectValue=======
+frametypev2_
+The Frame Type random number is 0.
+frametypev2_8
+All
+========setSelectValue=======
+selpvlan_
+The Mode random number is 0.
+selpvlan_8
+Specific
+======setPortsInputValue=====
+pvid_
+pvid_8
+941
+========setSelectValue=======
+tx_tag_
+The Tx Tag random number is 3.
+tx_tag_8
+Untag_all
+PASS
+
+

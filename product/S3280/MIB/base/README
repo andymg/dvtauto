@@ -1,0 +1,4 @@
+This is a public folder for all modules.
+Any module API shoule be in this foler, it's useful for other module to call your API to complete their test.
+
+For example vlan.tcl, most module test will use VLAN api to operate vlan or port mode, so valn.tcl is put in this folder

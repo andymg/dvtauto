@@ -1,0 +1,80 @@
+Do not support fcntl in windows or netsnmp for python is not installed module now
+Get parameters from Configuration file
+<module 'posixpath' from '/usr/lib/python2.7/posixpath.pyc'>
+<module 'posixpath' from '/usr/lib/python2.7/posixpath.pyc'>
+<module 'posixpath' from '/usr/lib/python2.7/posixpath.pyc'>
+
+=========parameters============================
+10.1.py
+prjName   S3280
+brserType              firefox
+DUTIP                               192.168.3.55
+=========parameters============================
+
+=====startPerformMainPro====
+BTW,Will Create User Number is 3.
+Initializing...
+Connection status 200.
+Starting firefox browser...
+=======startWebUser=======
+http://admin:@192.168.3.55
+S3280
+start web successfully!
+========engineUser========
+=======addUserHandle======
+=========checkUser========
+Existing 4 users in the system!
+ERROR:Existing more than one user in the system,Please delete all except for admin!
+/home/jeff/work/dvtauto/log/S3280/WEB/10.1-20130709125527.png
+DUT will factory Default soon ...
+DUT factory default successfully!
+=======startWebUser=======
+http://admin:@192.168.3.55
+S3280
+start web successfully!
+========engineUser========
+=start to execute user cases=
+=========addNewUser=======
+user_1
+user_2
+user_3
+========deleteUser========
+The No.1 is user_1
+The No.2 is user_2
+The No.3 is user_3
+=======addUserHandle======
+=========checkUser========
+Existing 1 users in the system!
+admin
+15
+=start to execute user cases=
+=========addNewUser=======
+user_1
+user_2
+user_3
+======checkRebootElement=====
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [1]
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [2]
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [3]
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [4]
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [5]
+FAILED to connected to http://192.168.3.55 with username=admin password= !
+Connection status 0. Failure...  [6]
+Connection status 200. Success!  [7]
+OK,start to check element!
+========checkElem========
+Connection status 200.
+========engineUser========
+Start to check the element...
+
+Add users number is 3.
+The element checked is existence, check successfully!
+=============The end============
+PASS
+
+WARNING: Failed to execute tcpdump. Check it is installed and in the PATH
